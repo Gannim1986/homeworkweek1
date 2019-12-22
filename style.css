@@ -1,0 +1,140 @@
+header{
+  background-color:teal;
+  color: white;
+/* margin-top: 10px; */
+width: 960px;
+margin: 0 auto;
+        
+}
+body{
+  
+}
+.container{
+    
+    background-color:#cccccc;
+    border: #dddddd;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 960px;
+    clear: none;
+    height: 500px;
+
+    
+    
+}
+
+}
+body {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("C:\Users\Ganes\Documents\playground\homework\images\background.jpg");
+    
+}
+.para{
+    font-size: #777777;
+    width: 80%;
+    margin-left: 120px;
+    text-align: center;
+    /* display: inline-block; */
+   
+    
+    /* position: absolute; */
+  
+}
+
+.profile-name{
+    font-size: 25px;
+    font-weight: bold;
+    
+    float: left;
+    padding: 10px;
+    margin: 0px 10px 15px 20px;
+       
+}
+.about-me{
+    margin-left: 20px;
+    /* float: left; */
+    font-size: 25px;
+    font-weight: bolder;
+   
+}
+.profile-image{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    padding: 2px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.nav-bar{
+    margin: 0 auto;
+    
+    font-size: 18px;
+    /* float: right; */
+    /* padding-bottom: 40px; */
+    text-align: center;
+    
+}
+.nav-bar li :hover{
+    background-color: black;
+    color: chartreuse;
+}
+
+.nav-bar a{
+    
+    padding: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    float: right;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: px;
+}
+
+footer{
+    max-width: 100%;
+    margin-top: 80px;
+    background-color:#666666;
+    padding: 15px;
+    text-align: center;
+    position: relative; 
+ 
+}
+
+/* .clearfix{
+    content: ;
+    clear: both;
+    display: table;
+}     */
+    
+#Name,
+#Email,
+#Message {
+    width: 960px;
+}
+
+#Message {
+    height: 250px;
+}
+    
+.text Name {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;   
+    bottom: 80px;
+}
+
+.text-submit
+
+
+
+
