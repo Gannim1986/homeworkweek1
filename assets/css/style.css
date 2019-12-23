@@ -1,0 +1,129 @@
+header{
+    background-color:teal;
+    color: white;
+  /* margin-top: 10px; */
+  width: 960px;
+  margin: 0 auto;
+          
+  }
+  
+    .container{
+      
+      /* background-color: white; */
+      border: #dddddd;
+      text-decoration: none;
+      margin: 0 auto;
+      left
+      width: 960px;
+      
+      height: 700px; 
+    }
+  
+   
+    
+  
+    .profile-name h1{
+      font-size: 25px;
+      font-weight: bold;
+      
+      float: left;
+      padding: 10px;
+      margin: 0px 10px 15px 20px;
+         
+    }
+    
+  
+    .nav-bar{
+      margin: 0 auto;
+      
+      font-size: 18px;
+      /* float: right; */
+      /* padding-bottom: 40px; */
+      text-align: center;
+      
+    }
+    .nav-bar li :hover{
+      background-color: black;
+      color: chartreuse;
+    }
+  
+    .nav-bar a{
+      
+      padding: 10px;
+      margin-left: 20px;
+      text-decoration: none;
+      float: right;
+      font-size: 20px;
+      color: white;
+      
+    }
+  
+    .nav-bar li {
+      display: inline-block;
+      margin: 0 auto;
+      padding-left: 10px;
+    }
+  
+    footer{
+      border-top: #4aaaa5 8px solid ;
+      width: 96%;
+      /* float: none; */
+      margin-top: 10px;
+      background-color:#666666;
+      padding: 15px;
+      text-align: center;
+      /* position: relative;  */
+   
+    }
+
+    .gallery {
+        margin: 40px;
+        border: 1px solid #cccc;
+        float: left; */
+        width: 960px;
+        float: left;
+        text-decoration: none;
+        padding: 20px;
+        height: 200x;
+        
+        
+    }
+    .gallery :hover {
+        border: 1px solid #777;
+    }
+
+    .gallery img {
+        width: 30%px;
+        height: 500;
+        float: left;
+        position: relative;
+    
+        
+    }
+    .desc {
+        padding: 2px;
+        text-align: center;
+        /* position: absolute;
+        font-size: 15px;
+        margin: 0 auto;
+        background-color: teal;
+        
+        /* display: inline-block; */
+    }
+
+    /* .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    } */
+
+    /* .gallery li {
+        /* display: inline-block; */
+       
+        
+  
+  
+  
+  
+
+  

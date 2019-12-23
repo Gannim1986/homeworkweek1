@@ -41,7 +41,7 @@ body {
   
 }
 
-.profile-name{
+.profile-name h1{
     font-size: 25px;
     font-weight: bold;
     
@@ -97,7 +97,7 @@ body {
 .nav-bar li {
     display: inline-block;
     margin: 0 auto;
-    padding-left: px;
+    padding-left: 10px;
 }
 
 footer{
