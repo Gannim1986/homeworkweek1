@@ -8,8 +8,8 @@ margin: 0 auto;
 }
 
 .container{
+    background-color: white;
     
-    /* background-color: white; */
     border: #dddddd;
     text-decoration: none;
     margin: 0 auto;
@@ -22,12 +22,7 @@ margin: 0 auto;
 }
 
 body {
-    
-    
-    /* background-color: lightgray; */
-    /* background-repeat: no-repeat; */
-    width: 100%;
-    height: 100%;
+    background-image: url(assets/image/background-image.png);
 }
 .para{
     font-size: #777777;
