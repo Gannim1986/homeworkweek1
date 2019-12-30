@@ -1,26 +1,27 @@
 header{
     background-color:teal;
     color: white;
-  
-  max-width: 100%;
-  margin: 0 auto;
+    padding: 10px;
+    
+     width: 960px;
+     /* margin: 0 auto; */
+     margin-left: 480px;
   
           
   }
-  body {
+  
+  /* body {
     background-image: url(assets/image/background-image.png);
     width: 100%;
-  }
+  } */
   
     .container{
       background-color: white;
-      
+      margin-left: 480px;
+
       border: #dddddd;
       text-decoration: none;
-      margin: 0 auto;
-      left
       width: 960px;
-      
       height: 700px; 
     }
   
@@ -30,21 +31,23 @@ header{
     .profile-name h1{
       font-size: 25px;
       font-weight: bold;
-      
-      
       float: left;
-      padding: 10px;
-      margin: 0px 10px 15px 20px;
+      padding: 5px;
+      /* margin: 0px 10px 15px 20px; */
+      margin-left: 20px;
+      bottom: 20px;
          
     }
     .wrapper{
+      margin-top: 30px;
+      margin-left: 35px;
       width: 960px;
       text-align: justify;
     }
     
   
     .nav-bar{
-      margin: 0 auto;
+      /* margin: 0 auto; */
       
       font-size: 18px;
       /* float: right; */
@@ -76,7 +79,8 @@ header{
   
     footer{
       border-top: #4aaaa5 8px solid ;
-      width: 96%;
+      width: 960px;
+      margin-left: 480px;
       /* float: none; */
       margin-top: 10px;
       background-color:#666666;
