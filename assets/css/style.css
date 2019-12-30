@@ -39,6 +39,7 @@ header{
          
     }
     .wrapper{
+      
       margin-top: 30px;
       margin-left: 35px;
       width: 960px;
@@ -93,7 +94,7 @@ header{
     .gallery {
         margin: 40px;
         border: 1px solid #cccc;
-
+        position: relative;
         width: 200px;
         float: left;
         text-decoration: none;
@@ -101,13 +102,15 @@ header{
         
         
     }
-    .gallery :hover {
+    /* .gallery :hover {
         border: 1px solid #777;
-    }
+    } */
 
     .gallery img {
         width: 150px;
         height: 150px;
+        
+        
         
     }
 
