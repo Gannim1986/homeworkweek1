@@ -1,23 +1,24 @@
 header{
     background-color:teal;
     color: white;
-    padding: 10px;
-    
-     width: 960px;
-     /* margin: 0 auto; */
-     margin-left: 480px;
+    padding: 3px;
+    border-bottom: black 2px solid;
+    border-radius:2px ;
+    width: 960px;
+     margin: 0 auto;
   
           
   }
-  
-  /* body {
+
+  body{
     background-image: url(assets/image/background-image.png);
-    width: 100%;
-  } */
+    background-repeat: no-repeat;
+}
+ 
   
     .container{
       background-color: white;
-      margin-left: 480px;
+      margin: 0 auto;
 
       border: #dddddd;
       text-decoration: none;
@@ -35,24 +36,21 @@ header{
       padding: 5px;
       /* margin: 0px 10px 15px 20px; */
       margin-left: 20px;
-      bottom: 20px;
+      bottom: 15px;
          
     }
     .wrapper{
       
-      margin-top: 30px;
+      margin-top: 20px;
       margin-left: 35px;
       width: 960px;
       text-align: justify;
     }
     
   
-    .nav-bar{
-      /* margin: 0 auto; */
-      
+    .nav-bar{ 
       font-size: 18px;
-      /* float: right; */
-      /* padding-bottom: 40px; */
+      
       text-align: center;
       
     }
@@ -77,64 +75,63 @@ header{
       margin: 0 auto;
       padding-left: 10px;
     }
-  
-    footer{
-      border-top: #4aaaa5 8px solid ;
-      width: 960px;
-      margin-left: 480px;
-      /* float: none; */
-      margin-top: 10px;
-      background-color:#666666;
-      padding: 15px;
-      text-align: center;
-      /* position: relative;  */
-   
-    }
 
     .gallery {
-        margin: 40px;
+        margin: 30px;
         border: 1px solid #cccc;
-        position: relative;
-        width: 200px;
+        width: 180px;
         float: left;
-        text-decoration: none;
-        height: 200x;
-        
-        
+        text-decoration: none;  
+           
     }
-    /* .gallery :hover {
-        border: 1px solid #777;
-    } */
+   
 
     .gallery img {
-        width: 150px;
-        height: 150px;
-        
-        
+        width: 960px;
+        height: auto;
+
         
     }
 
-
- 
+  
+  
     .desc {
-      padding: 2px;
+      margin: 0 ;
+      padding: 20px;
         text-align: center;
+        position: relative;
         
         
-        font-size: 15px;
-        margin: 0 auto;
         
-       
-    }
+        font-size: 8px;
+        /* margin: 0 auto; */
+       }
 
     h3 {
       position: absolute;
       width: 195px;
       /* padding: 2px; */
-      font-size: 25px;
+      font-size: 18px;
       text-align: center;
       background-color: teal;
     }
+
+
+    footer{
+      border-top: #4aaaa5 8px solid ;
+      width: 960px;
+      margin: 0 auto;
+      margin-top: 40px;
+      background-color:#666666;
+      padding: 15px;
+      text-align: center;
+      
+   
+    }
+
+    
+
+  
       
 
    
