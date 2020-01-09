@@ -1,80 +1,75 @@
-header{
-    background-color:teal;
-    color: white;
-    padding: 3px;
-    border-bottom: black 2px solid;
-    border-radius:2px ;
-    width: 960px;
-     margin: 0 auto;
-  
-          
-  }
 
-  body{
-    background-image: url(assets/image/background-image.png);
-    background-repeat: no-repeat;
+header {
+  background-color: teal;
+  color: black;   
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: black 2px solid;
+  border-radius:2px ;
+  
 }
- 
-  
-    .container{
-      background-color: white;
-      margin: 0 auto;
 
-      border: #dddddd;
-      text-decoration: none;
-      width: 960px;
-      height: 700px; 
-    }
+body{
+  background-image: url(image/background-image.png);
+}
+
+.container{
+   /* border: white; */
+   /* background-color: white; */
+   text-decoration: none;
+   padding: 2px;
+   margin: 0 auto;
+   width: 960px;
+   height: 650px;
+}
+
+
+.profile-name h1 {
+  font-size: 35px;
+  font-weight: bold;
+  float: left;
+  /* padding: 10px 10px 5px 15px; */
+  margin-left: 30px;
+  margin-top: 30px;
   
-   
-    
+}
+
+
+.nav-bar{
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.nav-bar li :hover{
+  background-color: black;
+  color: chartreuse;
+}
+
+.nav-bar a {
+
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+  float: right;
+  font-size: 22px;
+  color: whitesmoke;
   
-    .profile-name h1{
-      font-size: 25px;
-      font-weight: bold;
-      float: left;
-      padding: 5px;
-      /* margin: 0px 10px 15px 20px; */
-      margin-left: 20px;
-      bottom: 15px;
-         
-    }
-    .wrapper{
-      
-      margin-top: 20px;
-      margin-left: 35px;
-      width: 960px;
-      text-align: justify;
-    }
-    
+}
+
+.nav-bar li{
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 5px;
   
-    .nav-bar{ 
-      font-size: 18px;
-      
-      text-align: center;
-      
-    }
-    .nav-bar li :hover{
-      background-color: black;
-      color: chartreuse;
-    }
-  
-    .nav-bar a{
-      
-      padding: 10px;
-      margin-left: 20px;
-      text-decoration: none;
-      float: right;
-      font-size: 20px;
-      color: white;
-      
-    }
-  
-    .nav-bar li {
-      display: inline-block;
-      margin: 0 auto;
-      padding-left: 10px;
-    }
+}
+
+.wrapper {
+  padding: none;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
 
     .gallery {
         margin: 30px;
@@ -97,7 +92,7 @@ header{
   
     .desc {
       margin: 0 ;
-      padding: 20px;
+      padding: none;
         text-align: center;
         position: relative;
         
@@ -110,10 +105,11 @@ header{
     h3 {
       position: absolute;
       width: 195px;
-      /* padding: 2px; */
-      font-size: 18px;
+      padding: 10px;
+      font-size: 15px;
       text-align: center;
       background-color: teal;
+      
     }
 
 

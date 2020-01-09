@@ -1,11 +1,11 @@
 header {
     background-color: teal;
-    color: white;   
-    width: 960px;
-    padding: 3px;
+    color: black;   
+    width: 100%;
     margin: 0 auto;
     border-bottom: black 2px solid;
     border-radius:2px ;
+    
 }
 
 body{
@@ -14,12 +14,22 @@ body{
 
 .container{
      /* border: white; */
-     /* background-color: white; */
+     background-color:whitesmoke;
+     border: solid 1px white;
      text-decoration: none;
      margin: 0 auto;
+     margin-bottom: 10px;
+     margin-top: 20px;
      width: 960px;
      height: 500px;
+     padding: 2px;
 }
+
+.wrapper {
+    padding: none;
+    font-size: 25px;
+    font-weight: bolder;
+  }
 
 .para{
     display: inline-block;
@@ -42,9 +52,11 @@ body{
     font-size: 28px;
     font-weight: bold;
     float: left;
-    padding: 10px 10px 5px 15px;
-    margin: 5px 10px 15px 20px;
+    /* padding: 10px 10px 5px 15px; */
+    margin-left: 280px;
+    
 }
+
 
 .nav-bar{
     margin: 0 auto;
@@ -60,11 +72,12 @@ body{
 .nav-bar a {
 
     margin: 20px;
+    
    
     text-decoration: none;
     float: right;
     font-size: 18px;
-    color: white;
+    color: whitesmoke;
     
 }
 
@@ -72,13 +85,23 @@ body{
     display: inline-block;
     margin: 0 auto;
     padding-left: 5px;
+    margin-left: 50px;
+    
 }
+
+.wrapper {
+    padding: none;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+  }
 
 footer{
     border-top: teal 8px solid;
     width: 960px;
-    margin-top: 10px;
-    margin-left: 260px;
+    /* margin-top: 10px;
+    margin-left: 260px; */
+    margin: 0 auto;
     background-color: #666666;
     padding: 25px;
     text-align: center;
@@ -87,7 +110,8 @@ footer{
 #Name,
 #Email,
 #Message{
-    width: 960px;
+    width: 950px;
+    margin-left: 2px;
 }
 
 #Message {
